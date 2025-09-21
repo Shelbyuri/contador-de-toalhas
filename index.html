@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contador de Toalhas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contador" id="banho">
+    <h2>Toalha de Banho</h2>
+    <div class="numero" id="banhoNumero">0</div>
+    <button onclick="alterarContador('banho', -1)">-</button>
+    <button onclick="alterarContador('banho', 1)">+</button>
+  </div>
+
+  <div class="contador" id="piso">
+    <h2>Toalha de Piso</h2>
+    <div class="numero" id="pisoNumero">0</div>
+    <button onclick="alterarContador('piso', -1)">-</button>
+    <button onclick="alterarContador('piso', 1)">+</button>
+  </div>
+
+  <div class="contador" id="rosto">
+    <h2>Toalha de Rosto</h2>
+    <div class="numero" id="rostoNumero">0</div>
+    <button onclick="alterarContador('rosto', -1)">-</button>
+    <button onclick="alterarContador('rosto', 1)">+</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
